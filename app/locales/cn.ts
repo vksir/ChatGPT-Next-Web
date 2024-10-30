@@ -205,6 +205,8 @@ const cn = {
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
       GoToUpdate: "前往更新",
+      Success: "更新成功！",
+      Failed: "更新失败",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -454,6 +456,17 @@ const cn = {
           Title: "接口密钥",
           SubTitle: "使用自定义月之暗面API Key",
           Placeholder: "Moonshot API Key",
+        },
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "样例：",
+        },
+      },
+      XAI: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义XAI API Key",
+          Placeholder: "XAI API Key",
         },
         Endpoint: {
           Title: "接口地址",

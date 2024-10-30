@@ -207,6 +207,8 @@ const en: LocaleType = {
       IsChecking: "Checking update...",
       FoundUpdate: (x: string) => `Found new version: ${x}`,
       GoToUpdate: "Update",
+      Success: "Update Successful.",
+      Failed: "Update Failed.",
     },
     SendKey: "Send Key",
     Theme: "Theme",
@@ -438,6 +440,17 @@ const en: LocaleType = {
           Title: "Moonshot API Key",
           SubTitle: "Use a custom Moonshot API Key",
           Placeholder: "Moonshot API Key",
+        },
+        Endpoint: {
+          Title: "Endpoint Address",
+          SubTitle: "Example: ",
+        },
+      },
+      XAI: {
+        ApiKey: {
+          Title: "XAI API Key",
+          SubTitle: "Use a custom XAI API Key",
+          Placeholder: "XAI API Key",
         },
         Endpoint: {
           Title: "Endpoint Address",
